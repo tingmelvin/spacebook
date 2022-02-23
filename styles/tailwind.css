@@ -140,12 +140,14 @@
 
   span.text-xl {
       font-family: 'Inter';
+      font-weight: 600;
   }
 
   span.text-xl::after {
       content: "\ Documentation";
       font-family: 'Manrope';
       color: #00BD6E;
+      font-weight: 600;
   }
 
   span.text-xl:hover::after {
