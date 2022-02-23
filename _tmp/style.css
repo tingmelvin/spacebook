@@ -1,5 +1,5 @@
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 /*
 Document
 ========
@@ -54,6 +54,7 @@ Improve consistency of default fonts in all browsers. (https://github.com/sindre
 
 body {
   font-family:
+        'DM Sans'
 		system-ui,
 		-apple-system, /* Firefox supports this but not yet `system-ui` */
 		'Segoe UI',
@@ -63,6 +64,12 @@ body {
 		sans-serif,
 		'Apple Color Emoji',
 		'Segoe UI Emoji';
+
+    letter-spacing: -0.015em;
+}
+
+.text-xl {
+    font-family: "Inter";
 }
 
 /*
@@ -113,6 +120,7 @@ kbd,
 samp,
 pre {
   font-family:
+        'DM Mono'
 		ui-monospace,
 		SFMono-Regular,
 		Consolas,
@@ -736,12 +744,14 @@ img:hover {
   margin-left: -1.5rem !important;
 }
 
+/* what is this
 .prose ul.contains-task-list .task-list-item,
   .prose ul.spacelog {
   ::before {
     display: none !important;
   }
 }
+*/
 
 /* Define blockquotes and some standard callout blocks */
 
