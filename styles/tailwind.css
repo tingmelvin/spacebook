@@ -130,7 +130,14 @@
    @apply dark:text-gray-400
   }
 
+  /* CUSTOM STUFF */
+
   /* font weirdness? */
+
+  span.text-xl::before {
+      content: "🏘️";
+  }
+
   span.text-xl {
       font-family: 'Inter';
   }
@@ -138,9 +145,18 @@
   span.text-xl::after {
       content: "\ Documentation";
       font-family: 'Manrope';
+      color: #00BD6E;
+  }
+
+  span.text-xl:hover::after {
+      color: #26ffa8;
   }
 
   h1, h2, h3, h4, h5, h6 {
       font-family: 'Manrope';
+  }
+  /* remove opacity */
+  .text-gray-600 {
+      --tw-text-opacity: 0 !important;
   }
 }
