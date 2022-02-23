@@ -18,6 +18,11 @@ module.exports = {
     container: {
       center: true,
     },
+    fontFamily: {
+        sans: ['"DM Sans"', 'sans-serif'],
+        serif: ['Merriweather', 'serif'],
+        mono: ['"DM Mono"', 'monospace'],
+      },
     extend: {
       typography: {
         DEFAULT: {

@@ -127,4 +127,9 @@
   input {
    @apply dark:text-gray-400
   }
+
+  /* font weirdness? */
+  span.text-xl {
+      font-family: 'Inter';
+  }
 }
