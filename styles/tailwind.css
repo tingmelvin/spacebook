@@ -134,4 +134,13 @@
   span.text-xl {
       font-family: 'Inter';
   }
+
+  span.text-xl::after {
+      content: "\ Documentation";
+      font-family: 'Manrope';
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+      font-family: 'Manrope';
+  }
 }
