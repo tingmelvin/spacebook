@@ -3,7 +3,7 @@ title: Hello, world.
 date: Last Modified 
 permalink: /
 eleventyNavigation:
-  key: Hello 
+  key: Home
   order: 0
   title: Hello, world.
 ---

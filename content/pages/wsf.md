@@ -3,8 +3,9 @@ title: Willemstad for Shimmering Focus
 date: Last Modified 
 permalink: /next/willemstad-sf
 eleventyNavigation:
-  key: Hello 
+  key: Bonjour
   order: 100
+  parent: About Us
   title: Willemstad for Shimmering Focus
 ---
 
