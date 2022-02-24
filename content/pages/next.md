@@ -2,7 +2,7 @@
  layout: layouts/page.njk
  title: 'Is this ok'
  date: Last Modified 
- permalink: /next.html
+ permalink: /next/
  toc: true
  eleventyNavigation:
   key: About Us

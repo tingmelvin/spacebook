@@ -1,7 +1,7 @@
 ---
 title: Willemstad for Shimmering Focus
 date: Last Modified 
-permalink: /willemstad-sf.html
+permalink: /willemstad-sf/
 eleventyNavigation:
   key: Bonjour
   order: 100
