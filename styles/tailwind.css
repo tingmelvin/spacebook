@@ -191,8 +191,10 @@
     }
 
     /* change Github icon to white when darkmode on */
+    .feather.feather-github {
+        margin-left: 1rem;
+    }
     .dark .feather.feather-github {
-        background-color: white;
         color: white;
     }
 }
