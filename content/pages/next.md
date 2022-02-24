@@ -1,8 +1,9 @@
 ---
-title: Hello, world.
-date: Last Modified 
-permalink: /next
-eleventyNavigation:
+ layout: layouts/page.njk
+ title: Hello, world.
+ date: Last Modified 
+ permalink: /next
+ eleventyNavigation:
   key: About Us
   order: 10
   parent: Home
