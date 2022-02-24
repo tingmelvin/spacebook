@@ -1,12 +1,12 @@
 ---
 title: Willemstad for Shimmering Focus
 date: Last Modified 
-permalink: /willemstad-sf
+permalink: /willemstad-sf.html
 eleventyNavigation:
   key: Bonjour
   order: 100
   parent: Home
-  title: Willemstad for Shimmering Focus
+  title: 'Willemstad for Shimmering Focus'
 ---
 
 ## Willemstad for Shimmering Focus
