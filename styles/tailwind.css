@@ -176,8 +176,8 @@
 
   /* dafreak why so long - anyway for the border stuff at the top nav. can inject html, no? */
   .flex.h-16.md\:h-20.items-center.bg-white.dark\:bg-gray-900.z-20.fixed.top-0.left-0.right-0.border-b.border-gray-100.px-0.py-2.dark\:bg-dark.dark\:border-gray-800.transition-colors.duration-200 {
-      border-top: 4px;
-      border-bottom: none;
+      border-top: 4px solid;
+      border-bottom: 2px solid rgba(243,244,246,var(--tw-border-opacity) !important);
       border-image-source: linear-gradient(90deg, #00BD6E, #8ed6fb 50%, #d32e9d);
       border-image-slice: 1;
   }
