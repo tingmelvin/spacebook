@@ -192,7 +192,7 @@
 
     /* change Github icon to white when darkmode on */
     .feather.feather-github {
-        margin-right: 0.5rem;
+        margin-right: 0.75rem;
     }
     .dark .feather.feather-github {
         color: white;
