@@ -163,6 +163,10 @@
       font-family: 'Manrope';
   }
 
+  p > a {
+      font-family: 'DM Sans';
+  }
+
   /* remove border */
   .border.border {
       border-width: 0 !important;
